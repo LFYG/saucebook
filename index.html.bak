@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>saucebook</title>
     <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="libs/hover/css/hover-min.css" />
     <script src="bower_components/modernizr/modernizr.js"></script>
+    <script src="libs/skrollr/dist/skrollr.min.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Crafty+Girls' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
@@ -15,7 +17,7 @@
 		  <nav class="top-bar" data-topbar role="navigation">
 		    <ul class="title-area">
 			    <li class="name">
-			      <h1><a href="#">saucebook</a></h1>
+			      <h1 class="hvr-rotate"><a href="#">saucebook</a></h1>
 			    </li>
 			     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
 			    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
@@ -43,128 +45,157 @@
 		<section class="recipes">
 			<div class="row recipe">
 				<div class="medium-4 columns">
-					<h3>Crockpot Italian Chicken</h3>
+					<h3>Italian Chicken</h3>
 					<ul class="glance fa-ul">
-						<li class="ingredients"><i class="fa fa-li fa-cube"></i><span class="num sauce">5</span> ingredients</li>
-						<li class="loves"><i class="fa fa-li fa-heart"></i><span class="num sauce">263</span> loves</li>
-						<li class="feeds"><i class="fa fa-li fa-users"></i>feeds <span class="num sauce">10</span></li>
-						<li class="pairings"><i class="fa fa-li fa-beer"></i><span class="num sauce">2</span> pairings</li>
-						<li class="variants"><i class="fa fa-li fa-lightbulb-o"></i><span class="num sauce">6</span> variants</li>
-						<li class="time"><i class="fa fa-li fa-clock-o"></i><span class="num sauce">4 </span>hours</li>
+						<li class="ingredients hvr-float-shadow"><i class="fa fa-li fa-cube"></i><span class="num sauce">5</span> ingredients</li>
+						<li class="loves"><i class="fa fa-li fa-heart hvr-bounce-in"></i><span class="num sauce">263</span> loves</li>
+						<li class="feeds"><i class="fa fa-li fa-users hvr-pop"></i>feeds <span class="num sauce">10</span></li>
+						<li class="pairings"><i class="fa fa-li fa-beer hvr-wobble-skew"></i><span class="num sauce">2</span> pairings</li>
+						<li class="variants"><i class="fa fa-li fa-lightbulb-o hvr-grow"></i><span class="num sauce">6</span> variants</li>
+						<li class="time hvr-buzz-out"><i class="fa fa-li fa-clock-o"></i><span class="num sauce">4 </span>hours</li>
 					</ul>
 				</div>
-				<div class="medium-8 columns parallax" style="background-image: url('files/images/cicp.jpg');">
+				<div id="r1" class="medium-8 columns parallax" style="background-image: url('files/images/cicp.jpg');" 
+					data-bottom-top="background-position: 50% 0px;"
+        	data-top-bottom="background-position: 50% -283px;"
+        	data-anchor-target="#r1">
+				</div>
+			</div>
+			<div class="row recipe">
+				<div class="medium-4 columns">
+					<h3>Meatballs and Linguini</h3>
+					<ul class="glance fa-ul">
+						<li class="ingredients hvr-float-shadow"><i class="fa fa-li fa-cube"></i><span class="num sauce">9</span> ingredients</li>
+						<li class="loves"><i class="fa fa-li fa-heart hvr-bounce-in"></i><span class="num sauce">829</span> loves</li>
+						<li class="feeds"><i class="fa fa-li fa-users hvr-pop"></i>feeds <span class="num sauce">4</span></li>
+						<li class="pairings"><i class="fa fa-li fa-beer hvr-wobble-skew"></i><span class="num sauce">1</span> pairings</li>
+						<li class="variants"><i class="fa fa-li fa-lightbulb-o hvr-grow"></i><span class="num sauce">0</span> variants</li>
+						<li class="time hvr-buzz-out"><i class="fa fa-li fa-clock-o"></i><span class="num sauce">4 </span>hours</li>
+					</ul>
+				</div>
+				<div id="r2" class="medium-8 columns parallax" style="background-image: url('files/images/meatballs.jpg');" 
+					data-bottom-top="background-position: 50% 0px;"
+        	data-top-bottom="background-position: 50% -283px;"
+        	data-anchor-target="#r2">
+				</div>
+			</div>
+			<div class="row recipe">
+				<div class="medium-4 columns">
+					<h3>Italian Dinner Rolls</h3>
+					<ul class="glance fa-ul">
+						<li class="ingredients hvr-float-shadow"><i class="fa fa-li fa-cube"></i><span class="num sauce">5</span> ingredients</li>
+						<li class="loves"><i class="fa fa-li fa-heart hvr-bounce-in"></i><span class="num sauce">2,541</span> loves</li>
+						<li class="feeds"><i class="fa fa-li fa-users hvr-pop"></i>feeds <span class="num sauce">10</span></li>
+						<li class="pairings"><i class="fa fa-li fa-beer hvr-wobble-skew"></i><span class="num sauce">39</span> pairings</li>
+						<li class="variants"><i class="fa fa-li fa-lightbulb-o hvr-grow"></i><span class="num sauce">0</span> variants</li>
+						<li class="time hvr-buzz-out"><i class="fa fa-li fa-clock-o"></i><span class="num sauce">2 </span>hours</li>
+					</ul>
+				</div>
+				<div id="r3" class="medium-8 columns parallax" style="background-image: url('files/images/rolls.jpg');" 
+					data-bottom-top="background-position: 50% 0px;"
+        	data-top-bottom="background-position: 50% -283px;"
+        	data-anchor-target="#r3">
 				</div>
 			</div>
 			<div class="row recipe">
 				<div class="medium-4 columns">
 					<h3>Crockpot Italian Chicken</h3>
 					<ul class="glance fa-ul">
-						<li class="ingredients"><i class="fa fa-li fa-cube"></i><span class="num sauce">5</span> ingredients</li>
-						<li class="loves"><i class="fa fa-li fa-heart"></i><span class="num sauce">263</span> loves</li>
-						<li class="feeds"><i class="fa fa-li fa-users"></i>feeds <span class="num sauce">10</span></li>
-						<li class="pairings"><i class="fa fa-li fa-beer"></i><span class="num sauce">2</span> pairings</li>
-						<li class="variants"><i class="fa fa-li fa-lightbulb-o"></i><span class="num sauce">6</span> variants</li>
-						<li class="time"><i class="fa fa-li fa-clock-o"></i><span class="num sauce">4 </span>hours</li>
+						<li class="ingredients hvr-float-shadow"><i class="fa fa-li fa-cube"></i><span class="num sauce">5</span> ingredients</li>
+						<li class="loves"><i class="fa fa-li fa-heart hvr-bounce-in"></i><span class="num sauce">263</span> loves</li>
+						<li class="feeds"><i class="fa fa-li fa-users hvr-pop"></i>feeds <span class="num sauce">10</span></li>
+						<li class="pairings"><i class="fa fa-li fa-beer hvr-wobble-skew"></i><span class="num sauce">2</span> pairings</li>
+						<li class="variants"><i class="fa fa-li fa-lightbulb-o hvr-grow"></i><span class="num sauce">6</span> variants</li>
+						<li class="time hvr-buzz-out"><i class="fa fa-li fa-clock-o"></i><span class="num sauce">4 </span>hours</li>
 					</ul>
 				</div>
-				<div class="medium-8 columns parallax" style="background-image: url('files/images/meatballs.jpg');">
+				<div id="r4" class="medium-8 columns parallax" style="background-image: url('files/images/lasagna.jpg');" 
+					data-bottom-top="background-position: 50% 0px;"
+        	data-top-bottom="background-position: 50% -283px;"
+        	data-anchor-target="#r4">
 				</div>
 			</div>
 			<div class="row recipe">
 				<div class="medium-4 columns">
 					<h3>Crockpot Italian Chicken</h3>
 					<ul class="glance fa-ul">
-						<li class="ingredients"><i class="fa fa-li fa-cube"></i><span class="num sauce">5</span> ingredients</li>
-						<li class="loves"><i class="fa fa-li fa-heart"></i><span class="num sauce">263</span> loves</li>
-						<li class="feeds"><i class="fa fa-li fa-users"></i>feeds <span class="num sauce">10</span></li>
-						<li class="pairings"><i class="fa fa-li fa-beer"></i><span class="num sauce">2</span> pairings</li>
-						<li class="variants"><i class="fa fa-li fa-lightbulb-o"></i><span class="num sauce">6</span> variants</li>
-						<li class="time"><i class="fa fa-li fa-clock-o"></i><span class="num sauce">4 </span>hours</li>
+						<li class="ingredients hvr-float-shadow"><i class="fa fa-li fa-cube"></i><span class="num sauce">5</span> ingredients</li>
+						<li class="loves"><i class="fa fa-li fa-heart hvr-bounce-in"></i><span class="num sauce">263</span> loves</li>
+						<li class="feeds"><i class="fa fa-li fa-users hvr-pop"></i>feeds <span class="num sauce">10</span></li>
+						<li class="pairings"><i class="fa fa-li fa-beer hvr-wobble-skew"></i><span class="num sauce">2</span> pairings</li>
+						<li class="variants"><i class="fa fa-li fa-lightbulb-o hvr-grow"></i><span class="num sauce">6</span> variants</li>
+						<li class="time hvr-buzz-out"><i class="fa fa-li fa-clock-o"></i><span class="num sauce">4 </span>hours</li>
 					</ul>
 				</div>
-				<div class="medium-8 columns parallax" style="background-image: url('files/images/rolls.jpg');">
-				</div>
-			</div>
-			<div class="row recipe">
-				<div class="medium-4 columns">
-					<h3>Lasagna</h3>
-					<ul class="glance fa-ul">
-						<li class="ingredients"><i class="fa fa-li fa-cube"></i><span class="num sauce">5</span> ingredients</li>
-						<li class="loves"><i class="fa fa-li fa-heart"></i><span class="num sauce">263</span> loves</li>
-						<li class="feeds"><i class="fa fa-li fa-users"></i>feeds <span class="num sauce">10</span></li>
-						<li class="pairings"><i class="fa fa-li fa-beer"></i><span class="num sauce">2</span> pairings</li>
-						<li class="variants"><i class="fa fa-li fa-lightbulb-o"></i><span class="num sauce">6</span> variants</li>
-						<li class="time"><i class="fa fa-li fa-clock-o"></i><span class="num sauce">4 </span>hours</li>
-					</ul>
-				</div>
-				<div class="medium-8 columns parallax" style="background-image: url('files/images/lasagna.jpg');">
+				<div id="r5" class="medium-8 columns parallax" style="background-image: url('files/images/cicp.jpg');" 
+					data-bottom-top="background-position: 50% 0px;"
+        	data-top-bottom="background-position: 50% -283px;"
+        	data-anchor-target="#r5">
 				</div>
 			</div>
 			<div class="row recipe">
 				<div class="medium-4 columns">
 					<h3>Crockpot Italian Chicken</h3>
 					<ul class="glance fa-ul">
-						<li class="ingredients"><i class="fa fa-li fa-cube"></i><span class="num sauce">5</span> ingredients</li>
-						<li class="loves"><i class="fa fa-li fa-heart"></i><span class="num sauce">263</span> loves</li>
-						<li class="feeds"><i class="fa fa-li fa-users"></i>feeds <span class="num sauce">10</span></li>
-						<li class="pairings"><i class="fa fa-li fa-beer"></i><span class="num sauce">2</span> pairings</li>
-						<li class="variants"><i class="fa fa-li fa-lightbulb-o"></i><span class="num sauce">6</span> variants</li>
-						<li class="time"><i class="fa fa-li fa-clock-o"></i><span class="num sauce">4 </span>hours</li>
+						<li class="ingredients hvr-float-shadow"><i class="fa fa-li fa-cube"></i><span class="num sauce">5</span> ingredients</li>
+						<li class="loves"><i class="fa fa-li fa-heart hvr-bounce-in"></i><span class="num sauce">263</span> loves</li>
+						<li class="feeds"><i class="fa fa-li fa-users hvr-pop"></i>feeds <span class="num sauce">10</span></li>
+						<li class="pairings"><i class="fa fa-li fa-beer hvr-wobble-skew"></i><span class="num sauce">2</span> pairings</li>
+						<li class="variants"><i class="fa fa-li fa-lightbulb-o hvr-grow"></i><span class="num sauce">6</span> variants</li>
+						<li class="time hvr-buzz-out"><i class="fa fa-li fa-clock-o"></i><span class="num sauce">4 </span>hours</li>
 					</ul>
 				</div>
-				<div class="medium-8 columns parallax" style="background-image: url('files/images/cicp.jpg');">
+				<div id="r6" class="medium-8 columns parallax" style="background-image: url('files/images/cicp.jpg');" 
+					data-bottom-top="background-position: 50% 0px;"
+        	data-top-bottom="background-position: 50% -283px;"
+        	data-anchor-target="#r6">
 				</div>
 			</div>
 			<div class="row recipe">
 				<div class="medium-4 columns">
 					<h3>Crockpot Italian Chicken</h3>
 					<ul class="glance fa-ul">
-						<li class="ingredients"><i class="fa fa-li fa-cube"></i><span class="num sauce">5</span> ingredients</li>
-						<li class="loves"><i class="fa fa-li fa-heart"></i><span class="num sauce">263</span> loves</li>
-						<li class="feeds"><i class="fa fa-li fa-users"></i>feeds <span class="num sauce">10</span></li>
-						<li class="pairings"><i class="fa fa-li fa-beer"></i><span class="num sauce">2</span> pairings</li>
-						<li class="variants"><i class="fa fa-li fa-lightbulb-o"></i><span class="num sauce">6</span> variants</li>
-						<li class="time"><i class="fa fa-li fa-clock-o"></i><span class="num sauce">4 </span>hours</li>
+						<li class="ingredients hvr-float-shadow"><i class="fa fa-li fa-cube"></i><span class="num sauce">5</span> ingredients</li>
+						<li class="loves"><i class="fa fa-li fa-heart hvr-bounce-in"></i><span class="num sauce">263</span> loves</li>
+						<li class="feeds"><i class="fa fa-li fa-users hvr-pop"></i>feeds <span class="num sauce">10</span></li>
+						<li class="pairings"><i class="fa fa-li fa-beer hvr-wobble-skew"></i><span class="num sauce">2</span> pairings</li>
+						<li class="variants"><i class="fa fa-li fa-lightbulb-o hvr-grow"></i><span class="num sauce">6</span> variants</li>
+						<li class="time hvr-buzz-out"><i class="fa fa-li fa-clock-o"></i><span class="num sauce">4 </span>hours</li>
 					</ul>
 				</div>
-				<div class="medium-8 columns parallax" style="background-image: url('files/images/cicp.jpg');">
+				<div id="r7" class="medium-8 columns parallax" style="background-image: url('files/images/cicp.jpg');" 
+					data-bottom-top="background-position: 50% 0px;"
+        	data-center="background-position: 50% -283px;"
+        	data-anchor-target="#r7">
 				</div>
 			</div>
 			<div class="row recipe">
 				<div class="medium-4 columns">
 					<h3>Crockpot Italian Chicken</h3>
 					<ul class="glance fa-ul">
-						<li class="ingredients"><i class="fa fa-li fa-cube"></i><span class="num sauce">5</span> ingredients</li>
-						<li class="loves"><i class="fa fa-li fa-heart"></i><span class="num sauce">263</span> loves</li>
-						<li class="feeds"><i class="fa fa-li fa-users"></i>feeds <span class="num sauce">10</span></li>
-						<li class="pairings"><i class="fa fa-li fa-beer"></i><span class="num sauce">2</span> pairings</li>
-						<li class="variants"><i class="fa fa-li fa-lightbulb-o"></i><span class="num sauce">6</span> variants</li>
-						<li class="time"><i class="fa fa-li fa-clock-o"></i><span class="num sauce">4 </span>hours</li>
+						<li class="ingredients hvr-float-shadow"><i class="fa fa-li fa-cube"></i><span class="num sauce">5</span> ingredients</li>
+						<li class="loves"><i class="fa fa-li fa-heart hvr-bounce-in"></i><span class="num sauce">263</span> loves</li>
+						<li class="feeds"><i class="fa fa-li fa-users hvr-pop"></i>feeds <span class="num sauce">10</span></li>
+						<li class="pairings"><i class="fa fa-li fa-beer hvr-wobble-skew"></i><span class="num sauce">2</span> pairings</li>
+						<li class="variants"><i class="fa fa-li fa-lightbulb-o hvr-grow"></i><span class="num sauce">6</span> variants</li>
+						<li class="time hvr-buzz-out"><i class="fa fa-li fa-clock-o"></i><span class="num sauce">4 </span>hours</li>
 					</ul>
 				</div>
-				<div class="medium-8 columns parallax" style="background-image: url('files/images/cicp.jpg');">
+				<div id="r8" class="medium-8 columns parallax" style="background-image: url('files/images/cicp.jpg');" 
+					data-bottom-top="background-position: 50% 0px;"
+        	data-center="background-position: 50% -283px;"
+        	data-anchor-target="#r8">
 				</div>
 			</div>
-			<div class="row recipe">
-				<div class="medium-4 columns">
-					<h3>Crockpot Italian Chicken</h3>
-					<ul class="glance fa-ul">
-						<li class="ingredients"><i class="fa fa-li fa-cube"></i><span class="num sauce">5</span> ingredients</li>
-						<li class="loves"><i class="fa fa-li fa-heart"></i><span class="num sauce">263</span> loves</li>
-						<li class="feeds"><i class="fa fa-li fa-users"></i>feeds <span class="num sauce">10</span></li>
-						<li class="pairings"><i class="fa fa-li fa-beer"></i><span class="num sauce">2</span> pairings</li>
-						<li class="variants"><i class="fa fa-li fa-lightbulb-o"></i><span class="num sauce">6</span> variants</li>
-						<li class="time"><i class="fa fa-li fa-clock-o"></i><span class="num sauce">4 </span>hours</li>
-					</ul>
-				</div>
-				<div class="medium-8 columns parallax" style="background-image: url('files/images/cicp.jpg');">
-				</div>
-			</div>
+
+			
 		</section>
 		
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
     <script src="js/app.js"></script>
+    <script type="text/javascript">
+			s = skrollr.init();
+		</script>
   </body>
 </html>
