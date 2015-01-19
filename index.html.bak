@@ -1,0 +1,170 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>saucebook</title>
+    <link rel="stylesheet" href="css/app.css" />
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Crafty+Girls' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+  <body class="home">
+    <div class="contain-to-grid sticky">
+		  <nav class="top-bar" data-topbar role="navigation">
+		    <ul class="title-area">
+			    <li class="name">
+			      <h1><a href="#">saucebook</a></h1>
+			    </li>
+			     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+			    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+			  </ul>
+			
+			  <section class="top-bar-section">
+			    <!-- Right Nav Section -->
+			    <ul class="right">
+			      <li>
+			        <a href="#" class="">Log in</a>
+			      </li>
+			    </ul>
+			
+			   
+			  </section>
+		  </nav>
+		</div>
+		
+		<div class="row">
+			<div class="small-12 medium-11 medium-centered columns">
+				<h2 class="thin hero">a social cookbook<br>chock-full of <strong>set-it-and-forget-it</strong> slow cooker recipes<br> added by <span class="sauce">2,052,018 of your closest friends</span>.</h2>
+			</div>
+		</div>
+		
+		<section class="recipes">
+			<div class="row recipe">
+				<div class="medium-4 columns">
+					<h3>Crockpot Italian Chicken</h3>
+					<ul class="glance fa-ul">
+						<li class="ingredients"><i class="fa fa-li fa-cube"></i><span class="num sauce">5</span> ingredients</li>
+						<li class="loves"><i class="fa fa-li fa-heart"></i><span class="num sauce">263</span> loves</li>
+						<li class="feeds"><i class="fa fa-li fa-users"></i>feeds <span class="num sauce">10</span></li>
+						<li class="pairings"><i class="fa fa-li fa-beer"></i><span class="num sauce">2</span> pairings</li>
+						<li class="variants"><i class="fa fa-li fa-lightbulb-o"></i><span class="num sauce">6</span> variants</li>
+						<li class="time"><i class="fa fa-li fa-clock-o"></i><span class="num sauce">4 </span>hours</li>
+					</ul>
+				</div>
+				<div class="medium-8 columns parallax" style="background-image: url('files/images/cicp.jpg');">
+				</div>
+			</div>
+			<div class="row recipe">
+				<div class="medium-4 columns">
+					<h3>Crockpot Italian Chicken</h3>
+					<ul class="glance fa-ul">
+						<li class="ingredients"><i class="fa fa-li fa-cube"></i><span class="num sauce">5</span> ingredients</li>
+						<li class="loves"><i class="fa fa-li fa-heart"></i><span class="num sauce">263</span> loves</li>
+						<li class="feeds"><i class="fa fa-li fa-users"></i>feeds <span class="num sauce">10</span></li>
+						<li class="pairings"><i class="fa fa-li fa-beer"></i><span class="num sauce">2</span> pairings</li>
+						<li class="variants"><i class="fa fa-li fa-lightbulb-o"></i><span class="num sauce">6</span> variants</li>
+						<li class="time"><i class="fa fa-li fa-clock-o"></i><span class="num sauce">4 </span>hours</li>
+					</ul>
+				</div>
+				<div class="medium-8 columns parallax" style="background-image: url('files/images/meatballs.jpg');">
+				</div>
+			</div>
+			<div class="row recipe">
+				<div class="medium-4 columns">
+					<h3>Crockpot Italian Chicken</h3>
+					<ul class="glance fa-ul">
+						<li class="ingredients"><i class="fa fa-li fa-cube"></i><span class="num sauce">5</span> ingredients</li>
+						<li class="loves"><i class="fa fa-li fa-heart"></i><span class="num sauce">263</span> loves</li>
+						<li class="feeds"><i class="fa fa-li fa-users"></i>feeds <span class="num sauce">10</span></li>
+						<li class="pairings"><i class="fa fa-li fa-beer"></i><span class="num sauce">2</span> pairings</li>
+						<li class="variants"><i class="fa fa-li fa-lightbulb-o"></i><span class="num sauce">6</span> variants</li>
+						<li class="time"><i class="fa fa-li fa-clock-o"></i><span class="num sauce">4 </span>hours</li>
+					</ul>
+				</div>
+				<div class="medium-8 columns parallax" style="background-image: url('files/images/rolls.jpg');">
+				</div>
+			</div>
+			<div class="row recipe">
+				<div class="medium-4 columns">
+					<h3>Lasagna</h3>
+					<ul class="glance fa-ul">
+						<li class="ingredients"><i class="fa fa-li fa-cube"></i><span class="num sauce">5</span> ingredients</li>
+						<li class="loves"><i class="fa fa-li fa-heart"></i><span class="num sauce">263</span> loves</li>
+						<li class="feeds"><i class="fa fa-li fa-users"></i>feeds <span class="num sauce">10</span></li>
+						<li class="pairings"><i class="fa fa-li fa-beer"></i><span class="num sauce">2</span> pairings</li>
+						<li class="variants"><i class="fa fa-li fa-lightbulb-o"></i><span class="num sauce">6</span> variants</li>
+						<li class="time"><i class="fa fa-li fa-clock-o"></i><span class="num sauce">4 </span>hours</li>
+					</ul>
+				</div>
+				<div class="medium-8 columns parallax" style="background-image: url('files/images/lasagna.jpg');">
+				</div>
+			</div>
+			<div class="row recipe">
+				<div class="medium-4 columns">
+					<h3>Crockpot Italian Chicken</h3>
+					<ul class="glance fa-ul">
+						<li class="ingredients"><i class="fa fa-li fa-cube"></i><span class="num sauce">5</span> ingredients</li>
+						<li class="loves"><i class="fa fa-li fa-heart"></i><span class="num sauce">263</span> loves</li>
+						<li class="feeds"><i class="fa fa-li fa-users"></i>feeds <span class="num sauce">10</span></li>
+						<li class="pairings"><i class="fa fa-li fa-beer"></i><span class="num sauce">2</span> pairings</li>
+						<li class="variants"><i class="fa fa-li fa-lightbulb-o"></i><span class="num sauce">6</span> variants</li>
+						<li class="time"><i class="fa fa-li fa-clock-o"></i><span class="num sauce">4 </span>hours</li>
+					</ul>
+				</div>
+				<div class="medium-8 columns parallax" style="background-image: url('files/images/cicp.jpg');">
+				</div>
+			</div>
+			<div class="row recipe">
+				<div class="medium-4 columns">
+					<h3>Crockpot Italian Chicken</h3>
+					<ul class="glance fa-ul">
+						<li class="ingredients"><i class="fa fa-li fa-cube"></i><span class="num sauce">5</span> ingredients</li>
+						<li class="loves"><i class="fa fa-li fa-heart"></i><span class="num sauce">263</span> loves</li>
+						<li class="feeds"><i class="fa fa-li fa-users"></i>feeds <span class="num sauce">10</span></li>
+						<li class="pairings"><i class="fa fa-li fa-beer"></i><span class="num sauce">2</span> pairings</li>
+						<li class="variants"><i class="fa fa-li fa-lightbulb-o"></i><span class="num sauce">6</span> variants</li>
+						<li class="time"><i class="fa fa-li fa-clock-o"></i><span class="num sauce">4 </span>hours</li>
+					</ul>
+				</div>
+				<div class="medium-8 columns parallax" style="background-image: url('files/images/cicp.jpg');">
+				</div>
+			</div>
+			<div class="row recipe">
+				<div class="medium-4 columns">
+					<h3>Crockpot Italian Chicken</h3>
+					<ul class="glance fa-ul">
+						<li class="ingredients"><i class="fa fa-li fa-cube"></i><span class="num sauce">5</span> ingredients</li>
+						<li class="loves"><i class="fa fa-li fa-heart"></i><span class="num sauce">263</span> loves</li>
+						<li class="feeds"><i class="fa fa-li fa-users"></i>feeds <span class="num sauce">10</span></li>
+						<li class="pairings"><i class="fa fa-li fa-beer"></i><span class="num sauce">2</span> pairings</li>
+						<li class="variants"><i class="fa fa-li fa-lightbulb-o"></i><span class="num sauce">6</span> variants</li>
+						<li class="time"><i class="fa fa-li fa-clock-o"></i><span class="num sauce">4 </span>hours</li>
+					</ul>
+				</div>
+				<div class="medium-8 columns parallax" style="background-image: url('files/images/cicp.jpg');">
+				</div>
+			</div>
+			<div class="row recipe">
+				<div class="medium-4 columns">
+					<h3>Crockpot Italian Chicken</h3>
+					<ul class="glance fa-ul">
+						<li class="ingredients"><i class="fa fa-li fa-cube"></i><span class="num sauce">5</span> ingredients</li>
+						<li class="loves"><i class="fa fa-li fa-heart"></i><span class="num sauce">263</span> loves</li>
+						<li class="feeds"><i class="fa fa-li fa-users"></i>feeds <span class="num sauce">10</span></li>
+						<li class="pairings"><i class="fa fa-li fa-beer"></i><span class="num sauce">2</span> pairings</li>
+						<li class="variants"><i class="fa fa-li fa-lightbulb-o"></i><span class="num sauce">6</span> variants</li>
+						<li class="time"><i class="fa fa-li fa-clock-o"></i><span class="num sauce">4 </span>hours</li>
+					</ul>
+				</div>
+				<div class="medium-8 columns parallax" style="background-image: url('files/images/cicp.jpg');">
+				</div>
+			</div>
+		</section>
+		
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
