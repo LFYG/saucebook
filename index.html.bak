@@ -117,14 +117,14 @@
 			</div>
 			<div class="row recipe">
 				<div class="medium-4 columns">
-					<h3>Crockpot Italian Chicken</h3>
+					<h3>Lasagna</h3>
 					<ul class="glance fa-ul">
-						<li class="ingredients hvr-float-shadow"><i class="fa fa-li fa-cube"></i><span class="num sauce">5</span> ingredients</li>
-						<li class="loves"><i class="fa fa-li fa-heart hvr-bounce-in"></i><span class="num sauce">263</span> loves</li>
+						<li class="ingredients hvr-float-shadow"><i class="fa fa-li fa-cube"></i><span class="num sauce">8</span> ingredients</li>
+						<li class="loves"><i class="fa fa-li fa-heart hvr-bounce-in"></i><span class="num sauce">1,045</span> loves</li>
 						<li class="feeds"><i class="fa fa-li fa-users hvr-pop"></i>feeds <span class="num sauce">10</span></li>
-						<li class="pairings"><i class="fa fa-li fa-beer hvr-wobble-skew"></i><span class="num sauce">2</span> pairings</li>
-						<li class="variants"><i class="fa fa-li fa-lightbulb-o hvr-grow"></i><span class="num sauce">6</span> variants</li>
-						<li class="time hvr-buzz-out"><i class="fa fa-li fa-clock-o"></i><span class="num sauce">4 </span>hours</li>
+						<li class="pairings"><i class="fa fa-li fa-beer hvr-wobble-skew"></i><span class="num sauce">7</span> pairings</li>
+						<li class="variants"><i class="fa fa-li fa-lightbulb-o hvr-grow"></i><span class="num sauce">11</span> variants</li>
+						<li class="time hvr-buzz-out"><i class="fa fa-li fa-clock-o"></i><span class="num sauce">3 </span>hours</li>
 					</ul>
 				</div>
 				<div id="r5" class="medium-8 columns parallax" style="background-image: url('files/images/cicp.jpg');" 
